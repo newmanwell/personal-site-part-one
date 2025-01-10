@@ -112,6 +112,49 @@ a:visited {
   }
 }
 
+/* Portfolio page main section styling */
+
+.port-main {
+  background-color: rgb(125, 92, 9);
+  border-bottom: 15px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.port-main h2 {
+  margin: 0px;
+  text-align: center;
+}
+
+.port-main p {
+  text-align: center;
+}
+
+.port-main img {
+  height: 300px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.cw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 5px solid lightgray;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.gh-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+
 /* Footer style */
 
 footer {
