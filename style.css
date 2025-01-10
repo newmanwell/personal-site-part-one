@@ -6,6 +6,7 @@ body {
   margin: 0px;
 }
 
+/* Header Styling */
 header {
   background-color: rgb(166, 145, 92);
   border-bottom: 15px solid lightgray;
@@ -16,6 +17,7 @@ h1 {
   padding-top: 20px;
   text-align: center;
   font-size: 42px;
+  color: rgb(244, 237, 228);
 }
 
 nav ul {
@@ -39,5 +41,42 @@ a:hover {
 
 a:visited {
   color: blue;
+}
+
+/* Home page main section styling */
+
+.home-main {
+  background-color: rgb(125, 92, 9);
+  border-bottom: 15px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.home-main h2 {
+  color: rgb(244, 237, 228);
+}
+
+.wayne {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.home-main h4 {
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+.home-main p {
+  width: 50%;
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(166, 145, 92);
+  display: flex;
+  justify-content: space-between;
 }
 
