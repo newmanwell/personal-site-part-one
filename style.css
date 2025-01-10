@@ -74,6 +74,46 @@ a:visited {
   font-size: 20px;
 }
 
+/* About page main section styling */
+
+.about-main {
+  background-color: rgb(125, 92, 9);
+  border-bottom: 15px solid lightgray;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  padding: 25px;
+}
+
+.about-main img {
+  height: 500px;
+  width: 300px;
+}
+
+.gardening-container {
+  border-right: 5px solid lightgray;
+  padding: 10px;
+}
+
+.travel-container {
+  padding: 10px;
+}
+
+@media (max-width: 660px) {
+  .about-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gardening-container {
+    border-right: none;
+    border-bottom: 5px solid lightgray;
+  }
+}
+
+/* Footer style */
+
 footer {
   background-color: rgb(166, 145, 92);
   display: flex;
